@@ -7,7 +7,7 @@ function App() {
 
 
   useEffect(() => {
-    axios.get('/sports').then(response => {
+    axios.get('https://blogbackend12345.azurewebsites.net/sports').then(response => {
       console.log(response.data)
     }).catch(error => {
       console.log(error)
