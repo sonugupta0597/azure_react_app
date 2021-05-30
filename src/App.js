@@ -1,7 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
+
 
 function App() {
+  
+  useEffect(() => {
+        console.log("React with use effect");
+  }
+            
   return (
     <div className="App">
       <header className="App-header">
