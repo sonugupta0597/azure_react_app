@@ -5,9 +5,10 @@ import { useEffect } from 'react';
 
 function App() {
   
+  
   useEffect(() => {
-        console.log("React with use effect");
-  }
+    console.log("dasndasndjkasdnsajdas")
+  }, [])
             
   return (
     <div className="App">
