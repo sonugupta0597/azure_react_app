@@ -4,16 +4,20 @@ import { useEffect } from 'react';
 import axios from 'axios';
 
 function App() {
-  
-  
+
+
   useEffect(() => {
-    console.log("sonu here")
+    axios.get('/sports').then(response => {
+      console.log(response.data)
+    }).catch(error => {
+      console.log(error)
+    })
   }, [])
-            
+
   return (
     <div className="App">
       <header className="App-header">
-        Sonu Here 
+        Sonu Here
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
