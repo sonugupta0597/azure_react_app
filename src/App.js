@@ -7,7 +7,7 @@ function App() {
   
   
   useEffect(() => {
-    console.log("dasndasndjkasdnsajdas")
+    console.log("sonu here")
   }, [])
             
   return (
